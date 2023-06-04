@@ -1,0 +1,37 @@
+.header {
+    background: #c6ebe8;
+    height: 60px;
+    width: 100%;
+    margin: 0 auto 3rem;
+   display: flex;
+   justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+  }
+  
+  .nav {
+    display: flex;
+   justify-content: space-between;
+   column-gap: 100px;
+  }
+  
+  a {
+    text-decoration: none;
+    column-gap: 100px;
+  }
+  
+  .nav .link {
+    margin-right: 10px;
+  }
+  
+  .icon img {
+    display: flex;
+    width: 50px; 
+    height: 50px;
+  }
+  .item{
+    font-size: 20px;
+    column-gap: 50px;
+    display: flex;
+    margin-top: 10px;
+  }
